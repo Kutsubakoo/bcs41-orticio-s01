@@ -1,0 +1,79 @@
+/*
+	For your Mini-Activity 1
+		- screenshot the folder/files tree structure of your created bcs41-<lastName> repo
+		- submit it in our GC 1T2223 - ADV Game Dev chatbox
+*/
+
+CLI Commands
+ - Command-Line Interface
+ 	- it is like a text-based tool that lets the user to communicate with your computer or software by typing specific words or instructions known as commands
+
+Advantages of using CLI commands:
+	- efficiency
+	- automation
+	-remote access
+	-resource efficiency
+	-reproducibility
+
+~ (tilde)
+	- a special character with specific meaning in various context, it represent home directory
+		example: cd ~
+
+MINGW64
+	- also known an "Minimalist GNU for Windows 64-bit"
+		- a development environment and runtime for creating native Windows application using the GNU Compiler Collection
+
+		-- GNU 
+			- it means GNU's Not Unix
+
+- Navigation
+	- cd : change directory
+		- it allows us to change the current folder we are working on
+			syntax: 
+				cd <folder/directories>
+			example:
+				cd Documents
+	- pwd: present working directory
+		- it allows us to identify the current folder we are working on
+			syntax:
+				pwd
+			example:
+				pwd
+	- ls: list
+		- it allows us to list all the files and folders
+			syntax:
+				ls
+			example:
+				ls
+- File Manipulation
+	- mkdir: make directory
+		- it allows us to create folder/directory
+			syntax: 
+				mkdir <folderName/directoryName>
+			example:
+				mkdir s01
+	- touch: create an empty file
+		- it allows us to create file
+			syntax: 
+				touch <fileName>
+			example:
+				touch discussion.txt
+
+subl . >> opens our sublime editor
+code . >> opens our VSCode editor
+
+Git VCS
+	- an open source version control system. It allows us to track and update our files with ONLY CHANGES MADE TO IT.
+
+SSH or Secure Shell Key
+	- tools we use to authenticate the uploading or of other tasks when manipulating or using git repositories
+	- it allows us to push/upload changes to out repos without the need for passwords
+
+Basic Git Commands
+	- git status
+		- used within the Git repo to display the current status of your working directory and staging area.
+	- git init
+		- git initialization
+			-- used to start a new repository
+	git add .
+		- used in Git to stage (preparing for a commit) all changes in the current directory
